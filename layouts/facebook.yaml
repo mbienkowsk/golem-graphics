@@ -1,0 +1,24 @@
+bg: assets/facebook.png
+
+width_inches: 10
+height_inches: 5.25
+ppi: 144
+
+text_boundaries:
+  left: 3
+  right: 49
+
+fontsizes:
+  heading: 30
+  title_name: 15
+  time_place: 24
+
+y_offsets_px:
+  heading: 70
+  title: 150
+  author: 330
+  date_place: 500
+
+line_spacing_em:
+  title: .3
+  date_place: .8

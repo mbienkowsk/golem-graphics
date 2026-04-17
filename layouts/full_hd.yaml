@@ -1,0 +1,24 @@
+bg: assets/full_hd.png
+
+width_inches: 10
+height_inches: 5.625
+ppi: 192
+
+text_boundaries:
+  left: 5
+  right: 48
+
+fontsizes:
+  heading: 30
+  title_name: 16
+  time_place: 23
+
+y_offsets_px:
+  heading: 100
+  title: 200
+  author: 500
+  date_place: 700
+
+line_spacing_em:
+  title: .3
+  date_place: .8

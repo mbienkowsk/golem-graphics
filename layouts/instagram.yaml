@@ -1,0 +1,24 @@
+bg: assets/instagram.png
+
+width_inches: 10
+height_inches: 10
+ppi: 108
+
+text_boundaries:
+  left: 15
+  right: 85
+
+fontsizes:
+  heading: 60
+  title_name: 30
+  time_place: 45
+
+y_offsets_px:
+  heading: 100
+  title: 210
+  author: 440
+  date_place: 680
+
+line_spacing_em:
+  title: .5
+  date_place: .8
