@@ -2,6 +2,8 @@
 
 Generates promotional graphics for Golem AI Society lectures. Define a single YAML file per lecture and run one command to produce images sized for Discord, Facebook, Instagram, and Full HD.
 
+![example graphic](./lectures/example/full_hd.png)
+
 ## Usage
 
 ### With the Nix dev shell (recommended)
@@ -92,6 +94,10 @@ Layout files live in `layouts/` and control everything about a format's output. 
 | full_hd    | 10 x 5.625 | 192 | 1920 x 1080  |
 
 ### Layout YAML fields
+
+Breakdown of which field affects what:
+
+![layout breakdown](./assets/layout_breakdown.png)
 
 ```yaml
 bg: assets/discord.png      # background image
