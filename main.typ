@@ -29,7 +29,7 @@
 
 #set text(font: "Arial", fill: rgb("4d4a65"))
 
-#let contents_cfg = yaml(sys.inputs.config-path)
+#let contents_cfg = yaml(sys.inputs.cfg)
 
 #image(layout_cfg.bg, width: 100%)
 
